@@ -1,0 +1,54 @@
+body{
+    background-color:white;
+    color: black;
+    font-family: sans-serif;
+    
+}
+#skill{
+    margin : 50px
+}
+h1,h2{
+    font-size: 30px;
+    color: green;
+    font-weight: bolder;
+}
+.explist {
+    display: block;
+}
+#skill ul {
+    display: block;
+}
+form label {
+    font-size: 20px;
+    color: blue;
+}
+form input, textarea {
+    font-size: 10px;
+    padding: 15px;
+    border: 2px solid;
+    margin: 5px;
+}
+button {
+    padding: 2px;
+    background-color: coral;
+    border: 1px solid;
+}
+.messsages li {
+    display: block;
+}
+.messsages button {
+    font-size: 10px;
+    padding: 5px;
+    color: red;
+    border-radius: 50px;
+}
+footer p{
+    border: 5px solid;
+    padding: 10px;
+}
+.facebookimage img{
+    width: 5%;
+}
+.catimage {
+    width: 20%;
+}

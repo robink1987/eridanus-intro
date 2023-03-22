@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     Lorem ipsum dolor sit amet. Eum rerum rerum in blanditiis voluptatem sit consequatur possimus et 
@@ -26,12 +27,17 @@
         <h1>About</h1>
         <p>Something about me...</p>
         <ul><li></li></ul>
-        <img src="/instructions/images/cat-2083492_960_720.jpg" alt="">
+        <img class="catimage" src="/instructions/images/cat-2083492_960_720.jpg" alt="">
     </section>
     <section>
         <h1>Experience</h1>
         <p>Something about me...</p>
-        <ul><li></li></ul>
+        <ul class="explist">
+            <li>sfgdfsg</li>
+            <li>sfgdfsg</li>
+            <li>sfgdfsg</li>
+            <li>sfgdfsg</li>
+        </ul>
 
     </section>
     <section id="skill">
@@ -45,9 +51,29 @@
         <h1>Connect</h1>
         <p>Something about me...</p>
         <ul><li></li></ul>
-        <a href="https://www.facebook.com"><img src="/instructions/images/Facebook_icon.svg.png" alt=""></a>
+        <p>Let us connect in facebook</p>
+        <a class="facebookimage" href="https://www.facebook.com"><img src="/instructions/images/Facebook_icon.svg.png" alt=""></a>
     </section>
-    <footer></footer>
+    <section>
+        <h2> Leave a Message </h2>
+        <form action=""name="leave_message">
+            <label for="userName">Name</label>
+            <input type="text"name="usersName"required=true>
+            <label for="usersEmail">email</label>
+
+            <input type="email" name="usersEmail"required=true >
+            <label for="usersMessage">Message</label>
+            <textarea name="usersMessage" required="true"></textarea>
+            <button type="submit">Submit </button>
+
+            
+        </form>
+    </section>
+    <section id="messages">
+        <h2>Messages</h2>
+        <ul class="messsages"></ul>
+    <footer>
+    </footer>
     <script src="js/index.js"></script>
 </body>
 </html>
